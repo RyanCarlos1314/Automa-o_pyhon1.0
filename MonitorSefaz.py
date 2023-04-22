@@ -1,14 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
 
 
 get_ipython().system('pip install pyautogui')
-
-
-# In[2]:
-
 
 import pyautogui
 import time
@@ -36,29 +28,18 @@ pyautogui.write("Senha do email")
 pyautogui.click(x=988, y=580)
 
 # passo 4: Acessar a sefaz de PE
-
-
-
-# In[3]:
-
-
 time.sleep(5)
 print(pyautogui.position())
-
-
-# In[4]:
-
-
 # Passo 5: Acessar Chat Do suporte
-#Abrir uma nova aba
+# Abrir uma nova aba
 
 pyautogui.hotkey("ctrl","t")
 
-#Informar o link do site
+# Informar o link do site
 time.sleep(5)
 pyautogui.write("www.smsolucoesdigital.com.br/")
 
-#Precionar enter para entrar no site
+# Precionar enter para entrar no site
 time.sleep(5)
 pyautogui.press("enter")
 time.sleep(5)
@@ -69,9 +50,6 @@ time.sleep(5)
 pyautogui.click(x=143, y=329)
 time.sleep(5)
 pyautogui.press("F11")
-
-
-# In[ ]:
 
 
 
